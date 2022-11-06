@@ -23,9 +23,10 @@
  <li>All The Text Will Animate On The First Load,</li>
  <li>Single Text Will Animate Whenever New Message Will Be Added,</li>
  <li>AutoScroll To The Bottom Whenever New Message Will Be Added.</li>
- 
 </ul>
 
+<h3>Contributor :</h3>
+<ul><li>Rahim Ansari(Individual).</li></ul>
 
 
 <img  src="https://user-images.githubusercontent.com/101566073/200148677-f7dee273-5687-4298-9dd8-1872c7036126.jpeg" width="400" />
