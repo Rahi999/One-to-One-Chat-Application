@@ -9,8 +9,21 @@
  <li>Pure CSS,</li>
  <li>Dom-Manipulation,</li>
  <li>Codesandbox-Json-Server,</li>
- 
+</ul>
 
+<h3>Features : </h3>
+<ul>
+ <li>User Can Save a Profile Picture,</li>
+ <li>Editable Name,</li>
+ <li>All Messages Shown on The UI,</li>
+ <li>Sending Messages Feature,</li>
+ <li>After Sending All The Messages Will Shown On Other Side As Well,</li>
+ <li>More Than 1 Word Can Be Send as Message,</li>
+ <li>Responsive For SmartPhones and Big Screen,</li>
+ <li>All The Text Will Animate On The First Load,</li>
+ <li>Single Text Will Animate Whenever New Message Will Be Added,</li>
+ <li>AutoScroll To The Bottom Whenever New Message Will Be Added.</li>
+ 
 </ul>
 
 
