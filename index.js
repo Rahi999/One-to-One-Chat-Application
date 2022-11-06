@@ -68,31 +68,31 @@ function display(data) {
  }
 };
 
-// let permission = Notification.permission;
-// if(permission === "granted") {
-// showNotification();
-// } else if(permission === "default"){
-// requestAndShowPermission();
-// } else {
-// alert("Use normal alert");
-// }
-// function showNotification() {
-// if(document.visibilityState === "visible") {
-//     return;
-// }
-// var title = "New Message";
-// icon = "https://cdn4.vectorstock.com/i/1000x1000/03/78/new-message-icon-vector-21810378.jpg"
-// var body = "New Message Recieved From Rahim";
-// var notification = new Notification('New Message', { body, icon });
-// notification.onclick = () => { 
-//        notification.close();
-//        window.parent.focus();
-// }
-// }
-// function requestAndShowPermission() {
-// Notification.requestPermission(function (permission) {
-//    if (permission === "granted") {
-//          showNotification();
-//    }
-// });
-//}
+let permission = Notification.permission;
+if(permission === "granted") {
+showNotification();
+} else if(permission === "default"){
+requestAndShowPermission();
+} else {
+alert("Use normal alert");
+}
+function showNotification() {
+if(document.visibilityState === "visible") {
+    return;
+}
+var title = "New Message";
+icon = "https://cdn4.vectorstock.com/i/1000x1000/03/78/new-message-icon-vector-21810378.jpg"
+var body = "New Message Recieved From Rahim";
+var notification = new Notification('New Message', { body, icon });
+notification.onclick = () => { 
+       notification.close();
+       window.parent.focus();
+}
+}
+function requestAndShowPermission() {
+Notification.requestPermission(function (permission) {
+   if (permission === "granted") {
+         showNotification();
+   }
+});
+}
