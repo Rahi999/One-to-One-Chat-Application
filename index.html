@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <div id="container">
+    <div class="image-upload" style="display: flex;" >
+      <label for="file-input">
+        <img title="Choose a Profile Pic" id="img" src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg" width="50px" />
+      </label>
+    
+      <input  id="file-input" type="file" onchange="onImageChange(event)" />
+      <div id="seconddiv">
+        <h3 id="name" contenteditable="true">Choose Profile Pic</h3>
+        <h4 id="online" >online</h4>
+      </div>
+    </div>
+  <div id="div">
+      <p id="messages">Hello</p>
+      <p id="messages">Hello</p>
+      <p id="messages">Hello</p>
+      <p id="messages">Hello</p>
+      <p id="messages">Hello</p>
+      <p id="messages">Hello</p>
+  </div>
+  <div id="bottom">
+    <form action="" onsubmit="fn(event)">
+      <input placeholder="Message" type="text" name="" id="input" >
+      <button style="background-color: white;border:0px"><img title="Click to Send the Message" id="btn"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM7cd0R0eI5QG8nQ8nQASqzNGHE_ba0yR4ArmwGltvxhrY0lyMC_QoPiW_4XNNfQTByPE&usqp=CAU" alt="">
+      </button>
+    </form>
+   
+  </div>
+   </div>
+   
+</body>
+</html>
+<script src="index.js"></script>

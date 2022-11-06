@@ -1,0 +1,113 @@
+#container{
+    width: 350px;
+    margin: auto;
+  }
+  @keyframes wiggle {
+0%, 7% {
+transform: rotateZ(0);
+}
+15% {
+transform: rotateZ(-15deg);
+}
+20% {
+transform: rotateZ(10deg);
+}
+25% {
+transform: rotateZ(-10deg);
+}
+30% {
+transform: rotateZ(6deg);
+}
+35% {
+transform: rotateZ(-4deg);
+}
+40%, 100% {
+transform: rotateZ(0);
+}
+}
+
+  
+     #div{
+        height: 200px;
+        overflow: scroll;
+       
+     }
+     ::-webkit-scrollbar {
+          width: 0px;
+           }
+           .image-upload>input {
+             display: none;
+               } 
+           
+
+   #div{
+       height: 340px;
+
+   }
+   .image-upload{
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+   }
+   #img{
+    border-radius: 50%;
+    cursor: pointer;
+
+   }
+   #online{
+    margin-top: -15px;
+   }
+   #seconddiv{
+    margin-left: 10px;
+    margin-top: -10px;
+   }
+   #input {
+    width: 75%;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color:#001e3c;
+    color: grey;
+    border: 0px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+   }
+   #btn{
+    height: 40px;
+    width: 40px;
+    margin-bottom: -15px;
+    cursor: pointer;
+    border-radius: 50%;
+   }
+   #div{
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+   }
+   #messages{
+    font-size: 25px;
+    border: 0px;
+    width: 90%;
+    border-radius: 8px;
+    color: black;
+    background-color: grey;
+    font-style: italic;
+    animation: wiggle 4s linear ;
+    background: #ccc;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 5px solid #cc005f;
+    border-radius: 1 1 0.2em 0.2em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+    overflow: scroll;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+ 
+  
