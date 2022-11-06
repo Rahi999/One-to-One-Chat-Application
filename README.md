@@ -1,4 +1,6 @@
 <h3><a href="https://chat-application-by-rahim.netlify.app/" target="_blank">Go Live</a></h3>
+ <h3>Created this Mern Application For Chatting With a Single Person. User Can Choose a Profile Picture and Can Edit the Name as  Well. All The Messages Will be Shown on The UI itself, For Sending the Message to another Person User Will have to type the message and click on the Send Button Message Will be sent to the Another Person and Will Be Shown On The UI as Well.</h3>
+
 
 
 <img  src="https://user-images.githubusercontent.com/101566073/200148677-f7dee273-5687-4298-9dd8-1872c7036126.jpeg" width="400" />
