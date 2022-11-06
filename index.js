@@ -55,18 +55,18 @@ function display(data) {
       
  }
 
-  function onImageChange(event)  {
- if (event.target.files && event.target.files[0]) {
-  let image =  document.getElementById("img");
-  image.src = src=(URL.createObjectURL(event.target.files[0])); 
-  document.getElementById("name").innerText="Rahi";
-  document.getElementById("name").style.marginLeft="10px"
-  image.style.height="60px";
-  image.style.height="60px";
-  image.style.borderRadius="50%";
+//   function onImageChange(event)  {
+//  if (event.target.files && event.target.files[0]) {
+//   let image =  document.getElementById("img");
+//   image.src = src=(URL.createObjectURL(event.target.files[0])); 
+//   document.getElementById("name").innerText="Rahi";
+//   document.getElementById("name").style.marginLeft="10px"
+//   image.style.height="60px";
+//   image.style.height="60px";
+//   image.style.borderRadius="50%";
 
- }
-};
+//  }
+// };
 
 // let permission = Notification.permission;
 // if(permission === "granted") {
